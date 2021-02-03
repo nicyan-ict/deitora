@@ -63,7 +63,7 @@ header
 main
 ================*/
 main {
-  background-image: url(https://github.com/nicyan-ict/deitora/blob/main/main-vsual-nontitle.png?raw=true);
+  background-image: url(../img/main-vsual-nontitle.png);
   background-size: cover;
   padding: 80px 0;/*ここで背景画像の高さを調節している*/
 }
@@ -146,6 +146,17 @@ button {
   color: #fff;
   border: none;
 }
+.btn-register:hover {
+  opacity: 0.7;
+}
+
+.contact-top-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 60px;
+}
 
 /*==============
 footer
@@ -193,7 +204,7 @@ about
   float: none;
   width: 90%;
   margin-left: 0;
-  margin: 0 auto ;
+  margin: 50px auto ;
 }
 
 /*==============
@@ -234,9 +245,13 @@ button {
   font-size: 16px;
 }
 
+/*==============
+copyright
+================*/
+.copyright {
+  float: none;
+  font-size: 8px;
+  text-align: center;
 }
 
-
-
-
-
+}
